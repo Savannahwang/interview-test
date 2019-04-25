@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+    body,html{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        max-width: 2560px;
+        overflow-x: hidden;
+        overflow-y: visible;
+    }
+    .navbar-brand{
+      margin-left: 20%;
+    }
+    .banner{
+        display: inline;
+        position: relative; 
+        background-size: 110%;
+        overflow-y: visible;
+        margin: 0 ;
+        padding: 0 ;
+    }
+    .content{
+        position: absoluted;
+    }
+    h1 {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 100px;
+    color: #4F4D53;
+    text-align: center;
+    margin-top: -30%;
+    }
+
+    h2{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 64px;
+    color: #E8BE02;
+    text-align: center;
+    margin-top: 10%;
+    }
+    
+    employe
+    h3{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 20px;
+    color: #E8BE02;
+    text-align: center;
+    }
+
+    h4{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    }
+    p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4F4D53;
+    overflow-y: visible;
+    margin-bottom: 5%;
+    }
+
+    footer{
+        width: 100%;
+        height: 320px;
+        background-color:  #4F4D53;
+        position: flex;
+        bottom: 0px;
+        left: 0px;
+    }
+    .col-lg-3{
+        margin-top: 5%;
+        font-family: Roboto;
+    font-weight: 900;
+    
+    color: #E8BE02;
+    text-align: center;
+    }
+    </style>
+    </head>
+
+    <body>
+        <nav class="navbar" style="background-color:#4F4D53">
+            <a class="navbar-brand"><img src="media/gtd_logo.png"></a>
+        </nav>
+        <div class="container">
+           
+                <div class="col-lg-12">
+                    <img class="banner" src="media/img_hero.jpg">
+                </div>  
+           
+            <div class="row">
+               <div class="content col-lg-12">
+                    <h1>Hello, we’re gtd.</h1>
+                    <div class="emlolyee row mt-5">
+                        <div class="mr-5">
+                        <img src="media/img_brian_circle.png">
+                         </div> 
+                         <div class="mr-5">
+                        <img src="media/img_danielle_circle.png">
+                        </div> 
+                        <div class="mr-5">
+                        <img src="media/img_lisa_circle.png">
+                        </div>
+                    </div>
+                    <h2>How it started</h2>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris n
+                    isi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in c
+                    ulpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    </div>
+               </div>
+            </div>   
+        </div>
+
+        <footer style="background-color:#4F4D53;">
+            <div class="container">
+                <div class="row col-lg-12 mt-5">
+                    <div class="col-lg-3">
+                        <h3 style="font-size: 20px;">Team</h3>
+                        <h4>Lisa</h4>
+                        <h4>Danielle</h4>
+                        <h4>Brian</h4>
+                        <h4>Join us!</h4>
+                  </div>
+                  <div class="col-lg-3">
+                        <h3 style="font-size: 20px;">Learn More</h3>
+                        <h4>Manifesto</h4>
+                        <h4>Works</h4>
+                        <h4>Stories</h4>
+                  </div>
+                  <div class="col-lg-3">
+                        <h3 style="font-size: 20px;">Meet Us</h3>
+                        <h4>Studio</h4>
+                        <h4>Community</h4>
+                        <h4>Workshops</h4>
+                  </div>
+                  <div class="col-lg-3">
+                        <h3 style="font-size: 20px;">Contact</h3>
+                        <h4>Twitter</h4>
+                        <h4>Facebook</h4>
+                        <h4>Instagram</h4>
+                  </div>
+          </div>
+        </div>
+        </footer>
+    </body>
+</html>
+
+
